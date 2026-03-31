@@ -17,9 +17,25 @@ This project highlights practical skills in data engineering, database managemen
 Following programs utilized for this project includes:
 
 -Python
+
 -Pandas
+
 -PostgreSQL
+
 -Kaggle API
+
 -Power BI
+
 -VS Code
+
+Pipeline flow:
+Kaggle API → Python (Pandas) → PostgreSQL → Power BI
+
+The data pipeline follows a structured, end-to-end workflow that transforms raw healthcare data into actionable insights through automation and integration across multiple tools.
+
+The process begins with securely obtaining and configuring an API key from the Kaggle platform, enabling programmatic access to external datasets. Using a Python-based ingestion script developed in Visual Studio Code, the pipeline connects to the Kaggle API and retrieves the required data.
+
+Once extracted, the data is ingested and processed using Python and the Pandas library, where it can be cleaned, structured, and prepared for downstream use. The processed dataset is then loaded into a relational database built with PostgreSQL, enabling efficient storage, querying, and data management.
+
+Finally, the database is connected to Microsoft Power BI, where interactive dashboards and visualizations are created to analyze healthcare trends and support data-driven decision-making.
 
