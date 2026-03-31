@@ -1,0 +1,18 @@
+CREATE TABLE HealthCare (
+  employee_id SERIAL PRIMARY KEY,
+  Name TEXT,
+  Age INTEGER,
+  Gender TEXT,
+  BloodType TEXT,
+  MedicalCondition TEXT,
+  DateOfAdmission DATE,
+  Doctor TEXT,
+  Hospital TEXT,
+  Insurance TEXT,
+  BillingAmount NUMERIC,
+  RoomNumber TEXT,
+  AdmissionType TEXT,
+  DischargeDate DATE,
+  Medication TEXT,
+  TestResults TEXT
+)
