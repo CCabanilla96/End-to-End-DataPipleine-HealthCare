@@ -1,0 +1,5 @@
+let
+    Source = PostgreSQL.Database("localhost:5432", "postgres"),
+    public_healthcare = Source{[Schema="public",Item="healthcare"]}[Data]
+in
+    public_healthcare
