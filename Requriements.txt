@@ -1,0 +1,8 @@
+The following programs and dependencies are required for this project:
+
+1. Create account for Kaggle at https://www.kaggle.com/
+2. Install the following programs onto your device or VM:
+  a. Python
+  b. PostgresSQL
+  c. PowerBI
+  d. VS Code
