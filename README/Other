@@ -1,0 +1,6 @@
+If running of proxy server, add following lines to top of pg_hba.conf file:
+*file can be found here: C:\Program Files\PostgreSQL\(version)\data
+
+host    all     all     ::/0          md5
+host    all     all     0.0.0.0/0     md5
+hostssl all     all     0.0.0.0/0     md5
