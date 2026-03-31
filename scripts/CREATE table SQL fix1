@@ -1,0 +1,9 @@
+ALTER TABLE HealthCare RENAME COLUMN bloodtype TO "Blood Type";
+ALTER TABLE HealthCare RENAME COLUMN medicalcondition TO "Medical Condition";
+ALTER TABLE HealthCare RENAME COLUMN dateofadmission TO "Date of Admission";
+ALTER TABLE HealthCare RENAME COLUMN insurance TO "Insurance Provider";
+ALTER TABLE HealthCare RENAME COLUMN billingamount TO "Billing Amount";
+ALTER TABLE HealthCare RENAME COLUMN roomnumber TO "Room Number";
+ALTER TABLE HealthCare RENAME COLUMN admissiontype TO "Admission Type";
+ALTER TABLE HealthCare RENAME COLUMN dischargedate TO "Discharge Date";
+ALTER TABLE HealthCare RENAME COLUMN testresults TO "Test Results";
